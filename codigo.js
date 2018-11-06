@@ -17,10 +17,10 @@ function numAleatorios() {
   resultado=(prompt(`${aleatorio1}${signo[pos]}${aleatorio2}=`));
   console.log(`Tú respuesta es ${resultado}.`);
     if (signoAleatorio=0) {
-      console.log(`La respuesta correcta es ${eval(aleatorio1+aleatorio2)}`);
+      console.log(`La respuesta correcta es ${eval(aleatorio1+aleatorio2)}.`);
   }
     if (signoAleatorio=1) {
-      console.log(`La respuesta correcta es ${eval(aleatorio1-aleatorio2)}`);
+      console.log(`La respuesta correcta es ${eval(aleatorio1-aleatorio2)}.`);
   }
   }
 numAleatorios();
